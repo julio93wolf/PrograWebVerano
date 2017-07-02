@@ -35,11 +35,12 @@ nav{
 #content{
 	width: 100%;
 	float: left;
-	background-color: white;
+	background-color: #0d47a1;
 }
 section{
 	width: 70%;
 	float: left;
+	background-color: white;
 }
 #info{
 	width: 95%;
@@ -120,6 +121,9 @@ footer{
 	width: 100%;
 	float: left;
 	background-color: #0d47a1;
+	border-top-style: solid;
+	border-top-width: 5px;
+	border-top-color: #ff6d00;	
 }
 nav ul{
 	list-style-type: none;
@@ -157,7 +161,7 @@ nav ul li a:hover{
 	padding-top: 110px;
 }
 #login ul li a{
-	color: black;
+	color: white;
 	display: block;
 	text-transform: uppercase;
 	text-decoration: none;
@@ -178,7 +182,7 @@ nav ul li a:hover{
 	background-color: #ffd740;
 	border-color:#0d47a1;
 	color: black;
-	transition-property: background-color;
+	transition-property: background-color color;
   transition-duration: 0.8s;
 }
 #busqueda form input{
@@ -255,14 +259,24 @@ nav ul li a:hover{
 	border-top-left-radius: 50%;
 }
 
-#datos_personales{
+#info form{
 	width: 100%;
-	float: left;
 }
 
-#no_cliente{
+#datos{
 	width: 100%;
 	float: left;
+	margin: auto;
+}
+
+#datos input{
+	border: 2px solid #ff6d00;	
+    border-radius: 8px;
+    padding-left: 5px;
+    padding-right: 5px;
+    margin-top: 5px;
+    margin-bottom:5px;
+    width: 100%;
 }
 
 #asunto{
